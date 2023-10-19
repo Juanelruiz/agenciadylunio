@@ -1,0 +1,330 @@
+* { 
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1 {font-size: 4.2em;
+    font-weight: bold;
+    line-height: 80px;
+    margin-bottom: 35px;
+
+}
+
+h2 {font-size: 3.7em;}
+h3 { font-size: 1.1em;}
+p {font-size: 1.4em;}
+ul {list-style-type: none;}
+
+.color-acento { color: rgb(47, 243, 227);  }
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(247, 247, 247);
+}
+
+header .logodylunio {
+    margin: 0;
+    padding: 15px 30px;
+}
+
+header .logodylunio img {
+    width: 300px;
+    height: auto;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover{
+    color: aqua;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: aliceblue;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url(../Imagenes/Hero-fotor-2023101611455.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+#hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+#hero-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#hero-2 p {
+    font-size: 1.4em;
+    margin-bottom: 40px;
+}
+#hero-2 h1 {
+    font-size: 5em;
+    height: 40vh;
+    padding: 30px;
+    padding-bottom: 10px;
+    color: aliceblue;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url(../Imagenes/Dyluniocalco.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center center;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
+
+#hero-2 h3 {
+    font-size: 2em;
+    padding: 20px;
+    font-weight: bold;
+    color: aqua;
+}
+
+#hero-3 {
+    font-size: 1.2em;
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#somosdylunio .container {
+    text-align: center;
+    text-align: center;
+    padding: 100px 10px;
+}
+
+#nuestros-servicios {
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(51, 51, 51);
+}
+
+#nuestros-servicios .container{
+    padding-bottom: 50px;
+}
+
+#nuestros-servicios h3 {
+    margin-top: 0px;
+    padding: 30px;
+    font-weight: bold;
+  
+}
+
+#nuestros-servicios .servicios {
+    padding: 50px;
+    margin-right: 50px;
+}
+
+#nuestros-servicios p {
+    display: none;
+}
+
+.servicios:first-child {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url(../Imagenes/diseño-grafico.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.servicios:nth-child(2) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url(../Imagenes/community-manager.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.servicios:nth-child(3) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url(../Imagenes/fotografia.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.servicios:nth-child(4) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url(../Imagenes/paginas-web.png);
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+
+.carousel-item img {
+    max-width:80%; 
+    max-height:auto; 
+    margin: 0 auto;
+}
+
+#caracteristicas .container {
+    text-align: center;  
+}
+
+#caracteristicas li{
+    margin: 11px 0px; 
+    font-weight: bold;
+}
+
+#caracteristicas {
+    margin: 100px;
+}
+
+#contactanos {
+    font-size: 2.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: azure;
+    height: 56vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.96)
+    ), url(../Imagenes/Footer.JPG);
+    background-position: center;
+    background-size: cover;
+}
+
+footer {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media (min-width:720px){
+
+    .header .container{
+      padding: 100px 30px;   
+    }
+
+    .header nav{
+        flex-direction: column;
+        padding-bottom: 0;
+        padding-right: 20px;
+        justify-content: space-between;
+    
+    }
+
+    #hero{
+        padding: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #hero-2{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #hero-2 h3{
+        font-size: 3em;
+    }
+
+    #hero-3{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #nuestros-servicios {
+    font-size: 2em;
+    }
+
+    #contactanos { 
+        padding: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #contactanos h3{ 
+        font-size: 2em; 
+    
+    }
+    
+}
+
