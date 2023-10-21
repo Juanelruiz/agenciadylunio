@@ -1,16 +1,16 @@
 @charset "UTF-8";
-/* line 1, ../../EntregaFinal1/sass/estilos.scss */
+/* line 6, ../../EntregaFinal1/sass/estilos.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 5, ../../EntregaFinal1/sass/estilos.scss */
+/* line 10, ../../EntregaFinal1/sass/estilos.scss */
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-/* line 10, ../../EntregaFinal1/sass/estilos.scss */
+/* line 15, ../../EntregaFinal1/sass/estilos.scss */
 h1 {
   font-size: 4.2em;
   font-weight: bold;
@@ -18,38 +18,38 @@ h1 {
   margin-bottom: 35px;
 }
 
-/* line 17, ../../EntregaFinal1/sass/estilos.scss */
+/* line 23, ../../EntregaFinal1/sass/estilos.scss */
 h2 {
   font-size: 3.7em;
 }
 
-/* line 18, ../../EntregaFinal1/sass/estilos.scss */
+/* line 27, ../../EntregaFinal1/sass/estilos.scss */
 h3 {
   font-size: 1.1em;
 }
 
-/* line 19, ../../EntregaFinal1/sass/estilos.scss */
+/* line 31, ../../EntregaFinal1/sass/estilos.scss */
 p {
   font-size: 1.4em;
 }
 
-/* line 20, ../../EntregaFinal1/sass/estilos.scss */
+/* line 35, ../../EntregaFinal1/sass/estilos.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 22, ../../EntregaFinal1/sass/estilos.scss */
+/* line 39, ../../EntregaFinal1/sass/estilos.scss */
 .color-acento {
   color: #2ff3e3;
 }
 
-/* line 24, ../../EntregaFinal1/sass/estilos.scss */
+/* line 43, ../../EntregaFinal1/sass/estilos.scss */
 .container {
   max-width: 1400px;
   margin: auto;
 }
 
-/* line 29, ../../EntregaFinal1/sass/estilos.scss */
+/* line 48, ../../EntregaFinal1/sass/estilos.scss */
 header {
   display: flex;
   min-height: 120px;
@@ -59,26 +59,26 @@ header {
   background-color: #eeebeb;
 }
 
-/* line 39, ../../EntregaFinal1/sass/estilos.scss */
+/* line 56, ../../EntregaFinal1/sass/estilos.scss */
 header .logodylunio {
   margin: 0;
   padding: 15px 30px;
 }
 
-/* line 44, ../../EntregaFinal1/sass/estilos.scss */
+/* line 61, ../../EntregaFinal1/sass/estilos.scss */
 header .logodylunio img {
   height: 50px;
   margin-right: 10px;
 }
 
-/* line 50, ../../EntregaFinal1/sass/estilos.scss */
+/* line 66, ../../EntregaFinal1/sass/estilos.scss */
 header nav {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-/* line 57, ../../EntregaFinal1/sass/estilos.scss */
+/* line 71, ../../EntregaFinal1/sass/estilos.scss */
 header nav a {
   font-weight: 600;
   padding-right: 40px;
@@ -86,13 +86,13 @@ header nav a {
   color: black;
 }
 
-/* line 64, ../../EntregaFinal1/sass/estilos.scss */
-header a:hover {
+/* line 77, ../../EntregaFinal1/sass/estilos.scss */
+header nav a:hover {
   color: #02fff2;
   transition: color 0.3s;
 }
 
-/* line 70, ../../EntregaFinal1/sass/estilos.scss */
+/* line 85, ../../EntregaFinal1/sass/estilos.scss */
 #hero {
   display: flex;
   align-items: center;
@@ -107,13 +107,13 @@ header a:hover {
   background-position: center center;
 }
 
-/* line 88, ../../EntregaFinal1/sass/estilos.scss */
+/* line 99, ../../EntregaFinal1/sass/estilos.scss */
 #hero img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 93, ../../EntregaFinal1/sass/estilos.scss */
+/* line 105, ../../EntregaFinal1/sass/estilos.scss */
 #hero-2 {
   display: flex;
   align-items: center;
@@ -122,13 +122,13 @@ header a:hover {
   flex-direction: column;
 }
 
-/* line 101, ../../EntregaFinal1/sass/estilos.scss */
+/* line 112, ../../EntregaFinal1/sass/estilos.scss */
 #hero-2 p {
   font-size: 1.4em;
   margin-bottom: 40px;
 }
 
-/* line 106, ../../EntregaFinal1/sass/estilos.scss */
+/* line 117, ../../EntregaFinal1/sass/estilos.scss */
 #hero-2 h1 {
   font-size: 5em;
   height: 40vh;
@@ -145,7 +145,7 @@ header a:hover {
   justify-content: center;
 }
 
-/* line 126, ../../EntregaFinal1/sass/estilos.scss */
+/* line 134, ../../EntregaFinal1/sass/estilos.scss */
 #hero-2 h3 {
   font-size: 2em;
   padding: 20px;
@@ -153,7 +153,7 @@ header a:hover {
   color: aqua;
 }
 
-/* line 133, ../../EntregaFinal1/sass/estilos.scss */
+/* line 142, ../../EntregaFinal1/sass/estilos.scss */
 #hero-3 {
   font-size: 1.2em;
   padding: 70px;
@@ -164,7 +164,7 @@ header a:hover {
   flex-direction: column;
 }
 
-/* line 143, ../../EntregaFinal1/sass/estilos.scss */
+/* line 153, ../../EntregaFinal1/sass/estilos.scss */
 #hero-4 h1 {
   font-size: 4em;
   height: 40vh;
@@ -181,7 +181,7 @@ header a:hover {
   justify-content: center;
 }
 
-/* line 163, ../../EntregaFinal1/sass/estilos.scss */
+/* line 172, ../../EntregaFinal1/sass/estilos.scss */
 #hero-5 h1 {
   font-size: 4em;
   height: 40vh;
@@ -198,45 +198,45 @@ header a:hover {
   justify-content: center;
 }
 
-/* line 183, ../../EntregaFinal1/sass/estilos.scss */
+/* line 191, ../../EntregaFinal1/sass/estilos.scss */
 #somosdylunio .container {
   text-align: center;
   padding: 100px 10px;
 }
 
-/* line 188, ../../EntregaFinal1/sass/estilos.scss */
+/* line 197, ../../EntregaFinal1/sass/estilos.scss */
 #nuestros-servicios {
   text-align: center;
   color: aliceblue;
   background-color: #333333;
 }
 
-/* line 194, ../../EntregaFinal1/sass/estilos.scss */
+/* line 202, ../../EntregaFinal1/sass/estilos.scss */
 #nuestros-servicios .container {
   padding-bottom: 50px;
   padding-top: 50px;
 }
 
-/* line 199, ../../EntregaFinal1/sass/estilos.scss */
+/* line 207, ../../EntregaFinal1/sass/estilos.scss */
 #nuestros-servicios h3 {
   margin-top: 0;
   padding: 30px;
   font-weight: bold;
 }
 
-/* line 205, ../../EntregaFinal1/sass/estilos.scss */
+/* line 213, ../../EntregaFinal1/sass/estilos.scss */
 #nuestros-servicios .servicios {
   padding: 50px;
   margin-right: 50px;
 }
 
-/* line 210, ../../EntregaFinal1/sass/estilos.scss */
+/* line 218, ../../EntregaFinal1/sass/estilos.scss */
 #nuestros-servicios p {
   display: none;
 }
 
-/* line 214, ../../EntregaFinal1/sass/estilos.scss */
-.servicios:first-child {
+/* line 222, ../../EntregaFinal1/sass/estilos.scss */
+#nuestros-servicios:first-child {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Imagenes/diseño-grafico.jpg);
   background-position: center;
   background-size: cover;
@@ -244,8 +244,8 @@ header a:hover {
   border-radius: 10px;
 }
 
-/* line 226, ../../EntregaFinal1/sass/estilos.scss */
-.servicios:nth-child(2) {
+/* line 231, ../../EntregaFinal1/sass/estilos.scss */
+#nuestros-servicios:nth-child(2) {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Imagenes/community-manager.jpg);
   background-position: center;
   background-size: cover;
@@ -253,8 +253,8 @@ header a:hover {
   border-radius: 10px;
 }
 
-/* line 238, ../../EntregaFinal1/sass/estilos.scss */
-.servicios:nth-child(3) {
+/* line 240, ../../EntregaFinal1/sass/estilos.scss */
+#nuestros-servicios:nth-child(3) {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Imagenes/fotografia.jpg);
   background-position: center;
   background-size: cover;
@@ -262,8 +262,8 @@ header a:hover {
   border-radius: 10px;
 }
 
-/* line 250, ../../EntregaFinal1/sass/estilos.scss */
-.servicios:nth-child(4) {
+/* line 249, ../../EntregaFinal1/sass/estilos.scss */
+#nuestros-servicios:nth-child(4) {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Imagenes/paginas-web.png);
   background-position: center;
   background-size: cover;
@@ -271,98 +271,52 @@ header a:hover {
   border-radius: 10px;
 }
 
-/* line 262, ../../EntregaFinal1/sass/estilos.scss */
-.carousel-item img {
-  max-width: 80%;
-  max-height: auto;
-  margin: 0 auto;
-}
-
-/* line 268, ../../EntregaFinal1/sass/estilos.scss */
-#nuestros-diseños img {
-  max-width: 80%;
-  max-height: auto;
-  margin: 0 auto;
-  border-radius: 10px;
-}
-
-/* line 275, ../../EntregaFinal1/sass/estilos.scss */
-#nuestros-diseños h3 {
-  font-size: 2em;
-  font-weight: bold;
-}
-
-/* line 281, ../../EntregaFinal1/sass/estilos.scss */
-#nuestros-diseños .container {
-  padding: 20px;
-}
-
-/* line 285, ../../EntregaFinal1/sass/estilos.scss */
-#nuestros-diseños .insel {
-  padding: 30px;
-}
-
-/* line 289, ../../EntregaFinal1/sass/estilos.scss */
-#nuestros-diseños .optica {
-  padding: 30px;
-}
-
-/* line 293, ../../EntregaFinal1/sass/estilos.scss */
-#nuestros-diseños .xiomara {
-  padding: 50px;
-}
-
-/* line 297, ../../EntregaFinal1/sass/estilos.scss */
-#caracteristicas .container {
-  text-align: center;
-}
-
-/* line 301, ../../EntregaFinal1/sass/estilos.scss */
+/* line 259, ../../EntregaFinal1/sass/estilos.scss */
 #servicio-fotografia {
   margin: 0;
   padding: 0;
 }
 
-/* line 306, ../../EntregaFinal1/sass/estilos.scss */
+/* line 263, ../../EntregaFinal1/sass/estilos.scss */
 #servicio-fotografia img {
   width: 100%;
 }
 
-/* line 310, ../../EntregaFinal1/sass/estilos.scss */
+/* line 267, ../../EntregaFinal1/sass/estilos.scss */
 #servicio-fotografia .row {
   display: flex;
   padding: 10px;
   flex-wrap: wrap;
 }
 
-/* line 315, ../../EntregaFinal1/sass/estilos.scss */
+/* line 273, ../../EntregaFinal1/sass/estilos.scss */
 #servicio-fotografia .column {
   flex: 30%;
   padding: 5px;
 }
 
-/* line 319, ../../EntregaFinal1/sass/estilos.scss */
+/* line 277, ../../EntregaFinal1/sass/estilos.scss */
 #servicio-fotografia .column img {
   margin-top: 50px;
 }
 
-/* line 323, ../../EntregaFinal1/sass/estilos.scss */
+/* line 280, ../../EntregaFinal1/sass/estilos.scss */
 #servicio-fotografia .column img:hover {
   transform: scale(1.1);
 }
 
-/* line 328, ../../EntregaFinal1/sass/estilos.scss */
+/* line 287, ../../EntregaFinal1/sass/estilos.scss */
+#caracteristicas {
+  margin: 100px;
+}
+
+/* line 288, ../../EntregaFinal1/sass/estilos.scss */
 #caracteristicas li {
   margin: 11px 0;
   font-weight: bold;
 }
 
-/* line 333, ../../EntregaFinal1/sass/estilos.scss */
-#caracteristicas {
-  margin: 100px;
-}
-
-/* line 337, ../../EntregaFinal1/sass/estilos.scss */
+/* line 296, ../../EntregaFinal1/sass/estilos.scss */
 #contactanos {
   font-size: 2.3em;
   display: flex;
@@ -377,7 +331,12 @@ header a:hover {
   background-size: cover;
 }
 
-/* line 355, ../../EntregaFinal1/sass/estilos.scss */
+/* line 310, ../../EntregaFinal1/sass/estilos.scss */
+#contactanos h3 {
+  font-size: 2em;
+}
+
+/* line 315, ../../EntregaFinal1/sass/estilos.scss */
 footer {
   padding: 40px;
   display: flex;
@@ -387,7 +346,7 @@ footer {
   text-align: center;
 }
 
-/* line 364, ../../EntregaFinal1/sass/estilos.scss */
+/* line 324, ../../EntregaFinal1/sass/estilos.scss */
 #proximo-disponible {
   font-size: 1em;
   font-weight: 500;
@@ -395,69 +354,69 @@ footer {
   text-align: center;
 }
 
-/* line 372, ../../EntregaFinal1/sass/estilos.scss */
+/* line 330, ../../EntregaFinal1/sass/estilos.scss */
 #proximo-disponible h2 {
   font-weight: bold;
 }
 
 @media (min-width: 720px) {
-  /* line 378, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 336, ../../EntregaFinal1/sass/estilos.scss */
   header .container {
     padding: 100px 30px;
   }
-  /* line 382, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 340, ../../EntregaFinal1/sass/estilos.scss */
   header nav {
     flex-direction: row;
     padding-bottom: 0;
     padding-right: 20px;
     justify-content: flex-end;
   }
-  /* line 389, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 347, ../../EntregaFinal1/sass/estilos.scss */
   #hero {
     padding: 100px;
   }
-  /* line 393, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 351, ../../EntregaFinal1/sass/estilos.scss */
   #hero-2 {
     padding: 50px;
   }
-  /* line 397, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 354, ../../EntregaFinal1/sass/estilos.scss */
   #hero-2 h3 {
     font-size: 3em;
   }
-  /* line 401, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 359, ../../EntregaFinal1/sass/estilos.scss */
   #hero-3 {
     padding: 50px;
   }
-  /* line 405, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 363, ../../EntregaFinal1/sass/estilos.scss */
   #nuestros-servicios {
     font-size: 2em;
   }
-  /* line 409, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 367, ../../EntregaFinal1/sass/estilos.scss */
   #contactanos {
     padding: 100px;
   }
-  /* line 413, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 370, ../../EntregaFinal1/sass/estilos.scss */
   #contactanos h3 {
     font-size: 2em;
   }
 }
 
 @media (min-width: 800px) {
-  /* line 420, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 377, ../../EntregaFinal1/sass/estilos.scss */
   #servicio-fotografia .column {
     flex: 50px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 799px) {
-  /* line 427, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 383, ../../EntregaFinal1/sass/estilos.scss */
   #servicio-fotografia .column {
     flex: 40px;
   }
 }
 
 @media (max-width: 599px) {
-  /* line 433, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 389, ../../EntregaFinal1/sass/estilos.scss */
   #servicio-fotografia .column {
     flex: 20px;
   }
