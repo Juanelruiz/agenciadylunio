@@ -75,7 +75,7 @@ header {
       color: black;
 
       &:hover {
-        color: rgb(2, 255, 242);
+        color: rgb(41, 41, 41);
         transition: color 0.3s;
       }
     }
@@ -208,7 +208,7 @@ header {
     margin-top: 0;
     padding: 30px;
     font-weight: bold;
-  }
+  } 
 
   .servicios {
     padding: 50px;
@@ -330,6 +330,12 @@ footer {
   h2 {
     font-weight: bold;
   }
+}
+
+nuestros-diseños img{
+  max-width: 80%;
+  
+
 }
 
 @media (min-width: 720px) {
