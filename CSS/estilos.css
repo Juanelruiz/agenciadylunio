@@ -40,7 +40,7 @@ ul {
 
 /* line 39, ../../EntregaFinal1/sass/estilos.scss */
 .color-acento {
-  color: #2ff3e3;
+  color: #0d756d;
 }
 
 /* line 43, ../../EntregaFinal1/sass/estilos.scss */
@@ -56,7 +56,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: #eeebeb;
+  background-color: #fafafa;
 }
 
 /* line 56, ../../EntregaFinal1/sass/estilos.scss */
@@ -88,7 +88,7 @@ header nav a {
 
 /* line 77, ../../EntregaFinal1/sass/estilos.scss */
 header nav a:hover {
-  color: #02fff2;
+  color: #292929;
   transition: color 0.3s;
 }
 
@@ -359,64 +359,69 @@ footer {
   font-weight: bold;
 }
 
+/* line 335, ../../EntregaFinal1/sass/estilos.scss */
+nuestros-diseños img {
+  max-width: 80%;
+}
+
 @media (min-width: 720px) {
-  /* line 336, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 342, ../../EntregaFinal1/sass/estilos.scss */
   header .container {
     padding: 100px 30px;
   }
-  /* line 340, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 346, ../../EntregaFinal1/sass/estilos.scss */
   header nav {
     flex-direction: row;
     padding-bottom: 0;
     padding-right: 20px;
     justify-content: flex-end;
   }
-  /* line 347, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 353, ../../EntregaFinal1/sass/estilos.scss */
   #hero {
     padding: 100px;
   }
-  /* line 351, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 357, ../../EntregaFinal1/sass/estilos.scss */
   #hero-2 {
     padding: 50px;
   }
-  /* line 354, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 360, ../../EntregaFinal1/sass/estilos.scss */
   #hero-2 h3 {
     font-size: 3em;
   }
-  /* line 359, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 365, ../../EntregaFinal1/sass/estilos.scss */
   #hero-3 {
     padding: 50px;
   }
-  /* line 363, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 369, ../../EntregaFinal1/sass/estilos.scss */
   #nuestros-servicios {
     font-size: 2em;
   }
-  /* line 367, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 373, ../../EntregaFinal1/sass/estilos.scss */
   #contactanos {
     padding: 100px;
   }
-  /* line 370, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 376, ../../EntregaFinal1/sass/estilos.scss */
   #contactanos h3 {
     font-size: 2em;
   }
 }
 
 @media (min-width: 800px) {
-  /* line 377, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 383, ../../EntregaFinal1/sass/estilos.scss */
   #servicio-fotografia .column {
     flex: 50px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 799px) {
-  /* line 383, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 389, ../../EntregaFinal1/sass/estilos.scss */
   #servicio-fotografia .column {
     flex: 40px;
   }
 }
 
 @media (max-width: 599px) {
-  /* line 389, ../../EntregaFinal1/sass/estilos.scss */
+  /* line 395, ../../EntregaFinal1/sass/estilos.scss */
   #servicio-fotografia .column {
     flex: 20px;
   }
