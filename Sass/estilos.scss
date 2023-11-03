@@ -1,7 +1,7 @@
 $primary-font: 'Poppins', sans-serif;
-$accent-color: rgb(13, 117, 109);
+$accent-color: rgb(17, 219, 202);
 $background-color: rgb(250, 250, 250);
-$dark-background-color: rgb(51, 51, 51);
+$dark-background-color: rgb(66, 66, 66);
 
 * {
   box-sizing: border-box;
@@ -72,7 +72,7 @@ header {
       font-weight: 600;
       padding-right: 40px;
       text-decoration: none;
-      color: black;
+      color: rgb(0, 245, 245);
 
       &:hover {
         color: rgb(41, 41, 41);
@@ -254,6 +254,11 @@ header {
     margin: 30px;
     border-radius: 10px;
   }
+}
+
+#nuestros-diseños img {
+  width: 50%;
+  height: 50%;
 }
 
 #servicio-fotografia {
