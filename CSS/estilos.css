@@ -20,7 +20,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.1em;
+  font-size: 2.1em;
 }
 
 p {
@@ -33,6 +33,11 @@ ul {
 
 .color-acento {
   color: #11dbca;
+}
+
+.color-acento:hover {
+  color: #292929;
+  transition: color 0.3s;
 }
 
 .container {
@@ -110,7 +115,7 @@ header nav a:hover {
 }
 
 #hero-2 h1 {
-  font-size: 5em;
+  font-size: 4em;
   height: 40vh;
   padding: 30px;
   padding-bottom: 10px;
@@ -130,6 +135,11 @@ header nav a:hover {
   padding: 20px;
   font-weight: bold;
   color: aqua;
+}
+
+#hero-2 h3:hover {
+  color: #292929;
+  transition: color 0.3s;
 }
 
 #hero-3 {
@@ -182,7 +192,39 @@ header nav a:hover {
 #nuestros-servicios {
   text-align: center;
   color: aliceblue;
-  background-color: #424242;
+  background-color: #1b1b1b;
+}
+
+#nuestros-servicios .servicios:first-child {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Imagenes/diseño-grafico.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+#nuestros-servicios .servicios:nth-child(2) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Imagenes/community-manager.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+#nuestros-servicios .servicios:nth-child(3) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Imagenes/fotografia.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+#nuestros-servicios .servicios:nth-child(4) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Imagenes/paginas-web.png);
+  background-position: center;
+  background-size: cover;
+  margin: 30px;
+  border-radius: 10px;
 }
 
 #nuestros-servicios .container {
@@ -207,30 +249,6 @@ header nav a:hover {
 
 #nuestros-servicios:first-child {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Imagenes/diseño-grafico.jpg);
-  background-position: center;
-  background-size: cover;
-  margin: 30px;
-  border-radius: 10px;
-}
-
-#nuestros-servicios:nth-child(2) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Imagenes/community-manager.jpg);
-  background-position: center;
-  background-size: cover;
-  margin: 30px;
-  border-radius: 10px;
-}
-
-#nuestros-servicios:nth-child(3) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Imagenes/fotografia.jpg);
-  background-position: center;
-  background-size: cover;
-  margin: 30px;
-  border-radius: 10px;
-}
-
-#nuestros-servicios:nth-child(4) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Imagenes/paginas-web.png);
   background-position: center;
   background-size: cover;
   margin: 30px;
@@ -306,6 +324,13 @@ footer {
   text-align: center;
 }
 
+#carouselExampleControls {
+  background-position: center;
+  background-size: cover;
+  margin: 30px;
+  border-radius: 20px;
+}
+
 #proximo-disponible {
   font-size: 1em;
   font-weight: 500;
@@ -317,7 +342,7 @@ footer {
   font-weight: bold;
 }
 
-nuestros-diseños img {
+.nuestros-diseños img {
   max-width: 80%;
 }
 
