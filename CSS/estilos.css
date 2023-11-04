@@ -158,7 +158,7 @@ header nav a:hover {
   padding: 30px;
   padding-bottom: 10px;
   color: aliceblue;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Imagenes/diseño-grafico.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
@@ -204,7 +204,7 @@ header nav a:hover {
 }
 
 #nuestros-servicios .servicios:nth-child(2) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Imagenes/community-manager.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Imagenes/Servicio4.jpg);
   background-position: center;
   background-size: cover;
   margin: 30px;
@@ -212,7 +212,7 @@ header nav a:hover {
 }
 
 #nuestros-servicios .servicios:nth-child(3) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Imagenes/fotografia.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Imagenes/community-manager.jpg);
   background-position: center;
   background-size: cover;
   margin: 30px;
