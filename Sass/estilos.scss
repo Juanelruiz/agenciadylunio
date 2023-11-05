@@ -349,10 +349,15 @@ footer {
   text-align: center;
 }
 #carouselExampleControls{
+
+justify-content: center;
+align-items: center;
 background-position: center;
 background-size: cover;
 margin: 30px;
 border-radius: 20px;
+width: 70%;
+
 }
 
 #proximo-disponible {
