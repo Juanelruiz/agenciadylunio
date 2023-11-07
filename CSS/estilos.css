@@ -247,37 +247,46 @@ header nav a:hover {
   display: none;
 }
 
+#nuestros-diseños {
+  background-color: #cecece;
+  padding: 60px 0;
+  font-weight: 700;
+}
+
+#nuestros-diseños .container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+#nuestros-diseños .col-md-4 {
+  margin-bottom: 30px;
+}
+
+#nuestros-diseños .insel,
+#nuestros-diseños .optica,
+#nuestros-diseños .xiomara {
+  text-align: center;
+}
+
 #nuestros-diseños img {
-  width: 50%;
-  height: 50%;
+  max-width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
 }
 
-#servicio-fotografia {
-  margin: 0;
-  padding: 0;
-}
-
-#servicio-fotografia img {
-  width: 100%;
-}
-
-#servicio-fotografia .row {
-  display: flex;
-  padding: 10px;
-  flex-wrap: wrap;
-}
-
-#servicio-fotografia .column {
-  flex: 30%;
-  padding: 5px;
-}
-
-#servicio-fotografia .column img {
-  margin-top: 50px;
-}
-
-#servicio-fotografia .column img:hover {
+#nuestros-diseños img:hover {
   transform: scale(1.1);
+}
+
+#nuestros-diseños h2 {
+  font-weight: bolder;
+}
+
+#nuestros-diseños h2:hover {
+  color: #00f5f5;
+  transition: color 0.3s;
 }
 
 #caracteristicas {
@@ -326,6 +335,28 @@ footer {
   width: 70%;
 }
 
+#servicio-fotografia .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#servicio-fotografia .col-md-4 {
+  flex: 2;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+#servicio-fotografia .col-md-4 img {
+  display: block;
+  width: 100%;
+  border: 2px solid #ffffff;
+  transition: transform 0.3s ease-in-out;
+}
+
+#servicio-fotografia .col-md-4 img:hover {
+  transform: scale(1.7);
+}
+
 #proximo-disponible {
   font-size: 1em;
   font-weight: 500;
@@ -339,55 +370,4 @@ footer {
 
 .nuestros-diseños img {
   max-width: 80%;
-}
-
-@media (min-width: 720px) {
-  header .container {
-    padding: 100px 30px;
-  }
-  header nav {
-    flex-direction: row;
-    padding-bottom: 0;
-    padding-right: 20px;
-    justify-content: flex-end;
-  }
-  #hero {
-    padding: 100px;
-  }
-  #hero-2 {
-    padding: 50px;
-  }
-  #hero-2 h3 {
-    font-size: 3em;
-  }
-  #hero-3 {
-    padding: 50px;
-  }
-  #nuestros-servicios {
-    font-size: 2em;
-  }
-  #contactanos {
-    padding: 100px;
-  }
-  #contactanos h3 {
-    font-size: 2em;
-  }
-}
-
-@media (min-width: 800px) {
-  #servicio-fotografia .column {
-    flex: 50px;
-  }
-}
-
-@media (min-width: 600px) and (max-width: 799px) {
-  #servicio-fotografia .column {
-    flex: 40px;
-  }
-}
-
-@media (max-width: 599px) {
-  #servicio-fotografia .column {
-    flex: 20px;
-  }
 }
